@@ -1,0 +1,13 @@
+复习：
+提交一个修改的流程：
+    1、用 git add [xxx] 命令添加文件（可能有多个）
+    2、用 git commit -m "[your message]"  命令提交你添加的所有文件。-m 表示为此次提交写一个备注
+
+查看git状态：
+    git status 
+
+new learning:
+    如何版本回退？
+    用 git reset --[s1] [s2]命令进行回退。
+    两个参数：s1 表示回退的类型，有 hard、soft、mixed 状态。
+             s2 表示回退所在版本的 commit ID， 至少输入前四位，且保证无二义性，git会自动检索。
