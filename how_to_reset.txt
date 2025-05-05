@@ -15,4 +15,5 @@ new learning:
     查看历史提交日志：
     git log 
     git log --pretty=oneline    // 精简输出信息
-    
+
+    如果找不到提交ID，可以使用 git reflog 命令来查看提交历史
