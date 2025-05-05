@@ -1,6 +1,6 @@
 复习：
 提交一个修改的流程：
-    1、用 git add [xxx] 命令添加文件（可能有多个）
+    1、用 git add [xxx] 命令添加文件（可能有多个）至暂存区，如果没有commit的话，reset后会丢掉。
     2、用 git commit -m "[your message]"  命令提交你添加的所有文件。-m 表示为此次提交写一个备注
 
 查看git状态：
