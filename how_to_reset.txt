@@ -11,3 +11,8 @@ new learning:
     用 git reset --[s1] [s2]命令进行回退。
     两个参数：s1 表示回退的类型，有 hard、soft、mixed 状态。
              s2 表示回退所在版本的 commit ID， 至少输入前四位，且保证无二义性，git会自动检索。
+
+    查看历史提交日志：
+    git log 
+    git log --pretty=oneline    // 精简输出信息
+    
